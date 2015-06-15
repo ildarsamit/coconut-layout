@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Layout Manager for Meteor (based on flow-layout)',
-  version: '1.4.0',
+  version: '0.0.1',
   git: 'https://github.com/ildarsamit/coconut-layout',
   name: "ildar:coconut-layout"
 });
