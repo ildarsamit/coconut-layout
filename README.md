@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/meteorhacks/flow-layout.svg?branch=master)](https://travis-ci.org/meteorhacks/flow-layout)
+# ildar:coconut-layout
 
-# meteorhacks:flow-layout
+This package is essentially a clone of `meteorhacks:flow-layout`. It's being used as part of the Coconut CMS.
 
 ### Layout Manager for Meteor
 
@@ -13,10 +13,10 @@ This is a layout manager designed for flow architecture. But, this can be used w
 
 ## Usage
 
-First install flow-layout with:
+First install coconut-layout with:
 
 ~~~
-meteor add meteorhacks:flow-layout
+meteor add ildar:coconut-layout
 ~~~
 
 Then create following few templates
@@ -43,7 +43,7 @@ Then create following few templates
 Now you can render the layout with:
 
 ~~~js
-FlowLayout.render('layout1', { top: "header", main: "postList" });
+CoconutLayout.render('layout1', { top: "header", main: "postList" });
 ~~~
 
 Then you will get output like below:
@@ -56,7 +56,7 @@ Then you will get output like below:
 Sometimes later, you can render the layout again:
 
 ~~~js
-FlowLayout.render('layout1', { top: "header", main: "singlePost" });
+CoconutLayout.render('layout1', { top: "header", main: "singlePost" });
 ~~~
 
 Since only the `main` is changed, `top` section won't get re-rendered. Here's the HTML you'll get:
@@ -80,7 +80,7 @@ By default, Flow Layout render layouts into a DOM element with the id `__flow-ro
 Add following code inside on the top of one of your client side JS file:
 
 ~~~js
-FlowLayout.setRoot('body');
+CoconutLayout.setRoot('body');
 ~~~
 
 You can set any CSS selector or any jQuery object as the root.

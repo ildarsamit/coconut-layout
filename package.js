@@ -1,13 +1,13 @@
 Package.describe({
-  summary: 'Layout Manager for Meteor (designed for flow)',
+  summary: 'Layout Manager for Meteor (based on flow-layout)',
   version: '1.4.0',
-  git: 'https://github.com/meteorhacks/flow-layout',
-  name: "meteorhacks:flow-layout"
+  git: 'https://github.com/ildarsamit/coconut-layout',
+  name: "ildar:coconut-layout"
 });
 
 Package.onUse(function (api) {
   configure(api);
-  api.export(['FlowLayout']);
+  api.export(['CoconutLayout']);
 });
 
 Package.onTest(function(api) {
