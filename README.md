@@ -75,7 +75,7 @@ So, it's a good idea to use a few layouts if possible.
 
 ### Set Different Root Node
 
-By default, Flow Layout render layouts into a DOM element with the id `__flow-root`. Sometimes, you may need to change it or just render layouts into the body. If so, here's how to do it.
+By default, Flow Layout render layouts into a DOM element with the id `__coconut-root`. Sometimes, you may need to change it or just render layouts into the body. If so, here's how to do it.
 
 Add following code inside on the top of one of your client side JS file:
 
