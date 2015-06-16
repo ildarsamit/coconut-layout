@@ -1,6 +1,6 @@
 # ildar:coconut-layout
 
-This package is essentially a clone of `meteorhacks:flow-layout`. It's being used as part of the Coconut CMS.
+This package is essentially a clone of `meteorhacks:flow-layout`. It's being used as part of the Coconut CMS. The namespace change is needed to allow two layouts to work independently on a page.
 
 ### Layout Manager for Meteor
 
